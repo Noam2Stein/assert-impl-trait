@@ -1,6 +1,4 @@
 #![deny(missing_docs)]
-#![warn(clippy::pedantic)]
-#![warn(clippy::cargo)]
 #![doc = include_str!("../README.md")]
 
 mod assert_impl;
