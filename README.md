@@ -50,6 +50,15 @@ assert_impl!(
 assert_impl!(dyn core::fmt::Debug:);
 ```
 
+## Usage
+
+Add this to your Cargo.toml:
+
+```toml
+[dependencies]
+assert-impl-trait = "1.0.0"
+```
+
 ## Dependencies
 
 This crate depends on [`proc-macro2`](https://crates.io/crates/proc-macro2) and [`quote`](https://crates.io/crates/quote).
