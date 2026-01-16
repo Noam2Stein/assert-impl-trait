@@ -48,4 +48,6 @@ assert_impl!(
 
     [u8]: ?Sized + Send,
 
+    u8: std::ops::Add,
+    u8: std::ops::Add<Output = u8>,
 );
