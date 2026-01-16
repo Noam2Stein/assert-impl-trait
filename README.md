@@ -50,6 +50,10 @@ assert_impl!(
 assert_impl!(dyn core::fmt::Debug:);
 ```
 
+## Dependencies
+
+This crate depends on [`proc-macro2`](https://crates.io/crates/proc-macro2) and [`quote`](https://crates.io/crates/quote).
+
 ## License
 
 Licensed under either Apache License Version 2.0 or MIT license at your option.
