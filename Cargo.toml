@@ -1,0 +1,24 @@
+[package]
+name = "assert-impl-trait"
+version = "1.0.0"
+
+categories = [
+    "development-tools::debugging",
+    "development-tools::testing",
+    "no-std::no-alloc",
+    "rust-patterns",
+]
+edition = "2024"
+keywords = ["test", "impl", "type", "trait", "dyn"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Noam2Stein/assert-impl-trait"
+rust-version = "1.90.0"
+
+description = "Provides a macro to assert that a type implements a trait."
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.105"
+quote = "1.0.43"
